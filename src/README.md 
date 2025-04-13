@@ -1,0 +1,29 @@
+# OOP Assignment2
+
+As part of this OOP assignment, several classic data structures were implemented in Java from scratch, without using standard collections from java.util.
+
+All classes were written manually using key object-oriented principles such as encapsulation, generics, interfaces, and method overriding.
+
+### Implemented structures:
+
+1. **MyList<T>** – an interface that defines common list operations like adding, removing, searching, sorting, and more.
+
+2. **MyArrayList<T>** – a list based on a dynamic array (Object[]). Supports fast index-based access.
+
+3. **MyLinkedList<T>** – a custom doubly linked list, where each element stores references to the previous and next elements. Useful for efficient insertions and deletions.
+
+4. **MyStack<T>** – a LIFO stack built on top of MyArrayList. Includes push, pop, peek, and isEmpty methods.
+
+5. **MyQueue<T>** – a FIFO queue built using MyLinkedList. Includes enqueue, dequeue, peek, and isEmpty methods.
+
+6. **MyMinHeap<T>** – a binary min-heap built using MyArrayList. Supports inserting and extracting the minimum element.
+
+### Testing
+
+All classes were tested in Main.java with simple examples calling the key methods of each structure.
+
+### Technologies
+
+Java, IntelliJ IDEA, Git, GitHub
+
+Sagynbayeva Zhanat SE-2402
